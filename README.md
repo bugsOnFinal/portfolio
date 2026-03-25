@@ -6,107 +6,55 @@
 
 ## Overview
 
-This repository showcases selected CAD, FEA, and CFD work from my projects at AeroMIT (SAE Collegiate Design Team) and independent research at Manipal Institute of Technology. All structural and aerodynamic simulations were carried out in ANSYS Mechanical and ANSYS Fluent; all CAD models were developed in SolidWorks.
+This repository showcases selected CAD, FEA, and CFD work from my projects at AeroMIT (SAE Collegiate Design Team, MIT Manipal) and personal design work. It is intended to supplement my resume by providing visual evidence of my engineering analysis and modelling capabilities.
 
-> **Note:** Full CAD and simulation files are not hosted here due to competition confidentiality and ongoing publication restrictions. Screenshots of key results are provided for each project.
+My primary CAD tool is **SolidWorks**. I also have hands-on experience with **CATIA** (coursework and lab, MIT Manipal) and **AutoCAD** — models from university computers are not included here as I do not have local copies of those files.
+
+> Full simulation files are not hosted due to ongoing publication restrictions and competition confidentiality. This repository is intended to supplement my application. 
 
 ---
 
 ## CAD
 
-All models designed in **SolidWorks**.
+SolidWorks models covering competition aircraft, internal structural layouts, and concept designs developed as part of AeroMIT and independent work. Designs span conventional RC aircraft configurations, flying wing concepts, and detailed internal structural assemblies including rib-spar frameworks with carbon fibre reinforcement, designed for manufacturability using laser-cut balsa and carbon fibre composite layups.
 
-| Model | Description |
-|-------|-------------|
-| SAE Aero Design Aircraft — Full Internal Structure | Laser-cut balsa rib and spar framework with carbon fibre reinforcement, designed for SAE Aero Design East 2026 (World Rank 4 Overall) |
-| AeroMIT RC Aircraft (Conventional) | Conventional tractor configuration RC aircraft — two design iterations shown |
-| Flying Wing | Blended wing body concept for aerodynamic efficiency studies |
-| Aircraft Fuselage Internal Structure | Frame and longeron layout with skin cutaway views |
-
-### Previews
-
-<img src="CAD/sae_aero_design_full_structure.png" width="700"/>
-<p><em>SAE Aero Design East 2026 aircraft — full internal structure (SolidWorks)</em></p>
-
-<img src="CAD/rc_aircraft_v1.png" width="700"/>
-<p><em>AeroMIT RC aircraft — early configuration</em></p>
-
-<img src="CAD/rc_aircraft_v2.png" width="700"/>
-<p><em>AeroMIT RC aircraft — refined configuration with propeller</em></p>
-
-<img src="CAD/flying_wing.png" width="700"/>
-<p><em>Flying wing / blended wing body concept</em></p>
-
-<img src="CAD/fuselage_internal_v1.png" width="700"/>
-<p><em>Aircraft fuselage internal structure — frame and longeron layout</em></p>
-
-<img src="CAD/fuselage_internal_v2.png" width="700"/>
-<p><em>Aircraft fuselage internal structure — alternate view</em></p>
+<img src="CAD/int_str_with_cutouts.png" width="700"/>
+<img src="CAD/conv_trainer.png" width="700"/>
+<img src="CAD/conv_build_2.png" width="700"/>
+<img src="CAD/flying_wing_design.png" width="700"/>
+<img src="CAD/int_str_before_optim.png" width="700"/>
+<img src="CAD/internal_str_half_cad_itr2.png" width="700"/>
 
 ---
 
 ## FEA
 
-All analyses performed in **ANSYS Mechanical 2024 R2** (Static Structural, Modal, Explicit Dynamics, Random Vibration).
+Structural analyses performed in **ANSYS Mechanical 2024 R2** (Static Structural, Modal, Explicit Dynamics, Random Vibration). Work includes static structural analysis, landing impact simulations, and deformation studies across multiple aircraft components and full airframe assemblies. Analyses were conducted to validate structural integrity against competition load requirements and to drive weight optimisation of key components.
 
-| Analysis | Component | Key Result |
-|----------|-----------|------------|
-| Static Structural — Von Mises Stress | Wing rib (optimised) | Max stress: 53.2 MPa |
-| Static Structural — Total Deformation | Nose landing gear (impact load) | Max deformation: 14.1 mm |
-| Static Structural — Total Deformation | Full aircraft airframe | Max deformation: 25.8 mm |
-| Static Structural — Total Deformation | RC aircraft fuselage and tail structure | Max deformation: 16.9 mm |
-| Static Structural — Total Deformation | Quadcopter frame (landing impact) | Max deformation: 0.04 mm |
-
-### Previews
-
-<img src="FEA/wing_rib_von_mises.png" width="700"/>
-<p><em>Wing rib — equivalent (von Mises) stress, static structural. Max: 53.2 MPa</em></p>
-
-<img src="FEA/nose_gear_deformation.png" width="700"/>
-<p><em>Nose landing gear — total deformation under impact load. Max: 14.1 mm</em></p>
-
-<img src="FEA/full_aircraft_deformation.png" width="700"/>
-<p><em>Full aircraft airframe — total deformation, static structural. Max: 25.8 mm</em></p>
-
-<img src="FEA/fuselage_tail_deformation.png" width="700"/>
-<p><em>RC aircraft fuselage and tail — total deformation. Max: 16.9 mm</em></p>
-
-<img src="FEA/quadcopter_landing_deformation.png" width="700"/>
-<p><em>Quadcopter frame — total deformation, landing impact. Max: 0.04 mm</em></p>
+<img src="FEA/optim_rib_1.png" width="700"/>
+<img src="FEA/wing_deflection_test.png" width="700"/>
+<img src="FEA/deflection_test2.png" width="700"/>
+<img src="FEA/drone_arm_def.png" width="700"/>
 
 ---
 
 ## CFD
 
-All simulations performed in **ANSYS Fluent**.
+CFD simulations performed in **ANSYS Fluent**. Work includes 2D airfoil pressure analysis, compressible flow simulations, and full 3D aircraft RANS simulations at competition flight conditions. The 3D pathline results show wake structure, wingtip vortex development, and fuselage flow separation. Additional high-fidelity airfoil CFD work (subsonic, transonic, and supersonic regimes) was carried out using FALCON — see Publications below.
 
-| Simulation | Description |
-|------------|-------------|
-| Full Aircraft — Velocity Pathlines | 3D RANS simulation at 25 m/s freestream; velocity pathlines showing wake structure, wingtip vortices, and fuselage separation |
-
-### Previews
-
-<img src="CFD/aircraft_velocity_pathlines.png" width="700"/>
-<p><em>Full aircraft CFD — velocity magnitude pathlines (ANSYS Fluent). Freestream: 25 m/s</em></p>
+<img src="CFD/4412_pressure.png" width="700"/>
+<img src="CFD/compressble_test1.png" width="700"/>
+<img src="CFD/am16_aoa15.jpeg" width="700"/>
 
 ---
 
 ## Publications & Software
 
-| Title | Venue | Status |
-|-------|-------|--------|
-| FALCON: Framework for Airfoil CFD and anaLysis OptimizatioN | ICAS 2026, Sydney | Accepted — Oral Presentation (Sep 2026) |
-| Advances in Flow–Structure Interaction and Multiphysics Applications: An Immersed Boundary Perspective | *Fluids*, MDPI (Q2) | Published 2025 |
-| Recent Developments in the Immersed Boundary Method for Complex Fluid–Structure Interactions: A Review | *Fluids*, MDPI (Q2) | Published 2025 |
+| Title | Details | Status |
+|-------|---------|--------|
+| FALCON: Framework for Airfoil CFD and anaLysis OptimizatioN | ICAS 2026, Sydney, Sep 2026 | Accepted — Oral Presentation |
+| Advances in Flow–Structure Interaction and Multiphysics Applications: An Immersed Boundary Perspective | *Fluids* (Q2), 2025 | Published |
+| Recent Developments in the Immersed Boundary Method for Complex Fluid–Structure Interactions: A Review | *Fluids* (Q2), 2025 | Published |
 
-FALCON source code: [github.com/Prisha22/FALCON](https://github.com/Prisha22/FALCON) *(co-developed — hosted on collaborator's account)*  
+FALCON source code: [github.com/Prisha22/FALCON](https://github.com/Prisha22/FALCON) *(co-developed)*  
 Registered Software: SW-47114/2025-CO
-
----
-
-## Software Used
-
-- **SolidWorks** — 3D modelling and assembly
-- **ANSYS Mechanical 2024 R2** — Static Structural, Modal, Explicit Dynamics, Random Vibration
-- **ANSYS Fluent** — CFD simulation and post-processing
-- **Python / SU2 / GMSH** — Automated CFD pipeline (FALCON)
