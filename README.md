@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository showcases selected CAD, FEA, and CFD work from my projects at AeroMIT (SAE Collegiate Design Team) and independent research at Manipal Institute of Technology. All structural and aerodynamic simulations were carried out in ANSYS Mechanical and ANSYS Fluent; all CAD models were developed in SolidWorks.
+This repository showcases selected CAD, FEA, and CFD work from my projects at AeroMIT (SAE Collegiate Design Team) and independent research at Manipal Institute of Technology. All structural and aerodynamic simulations were carried out in ANSYS Mechanical and ANSYS Fluent; all CAD models were developed in SolidWorks and/or CATIA. 
 
 > **Note:** Full CAD and simulation files are not hosted here due to competition confidentiality and ongoing publication restrictions. Screenshots of key results are provided for each project.
 
