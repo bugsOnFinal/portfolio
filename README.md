@@ -1,4 +1,4 @@
-# Aerospace Engineering Portfolio
+# Portfolio
 **Anwak Manoj Kumar** | Aeronautical Engineering, MIT Manipal  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/anwak-manoj-kumar-580ba7314) [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:anwak05@gmail.com)
 
