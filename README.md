@@ -29,7 +29,7 @@ SolidWorks models covering competition aircraft, internal structural layouts, an
 
 ## FEA
 
-Structural analyses performed in **ANSYS Mechanical 2024 R2** (Static Structural, Modal, Explicit Dynamics, Random Vibration). Work includes static structural analysis, landing impact simulations, and deformation studies across multiple aircraft components and full airframe assemblies. Analyses were conducted to validate structural integrity against competition load requirements and to drive weight optimisation of key components.
+Structural analyses performed in **ANSYS Mechanical** (Static Structural, Modal, Explicit Dynamics, Random Vibration). Work includes static structural analysis, landing impact simulations, and deformation studies across multiple aircraft components and full airframe assemblies. Analyses were conducted to validate structural integrity against competition load requirements and to drive weight optimisation of key components.
 
 <img src="FEA/optim_rib_1.png" width="700"/>
 <img src="FEA/wing_deflection_test.png" width="700"/>
