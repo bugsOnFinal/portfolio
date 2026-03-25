@@ -10,7 +10,7 @@ This repository showcases selected CAD, FEA, and CFD work from my projects at Ae
 
 My primary CAD tool is **SolidWorks**. I also have hands-on experience with **CATIA** (coursework and lab, MIT Manipal) and **AutoCAD** — models from university computers are not included here as I do not have local copies of those files.
 
-> Full simulation files are not hosted due to ongoing publication restrictions and competition confidentiality. This repository is intended to supplement my application. 
+> Full simulation files are not hosted due to ongoing publication restrictions and competition confidentiality.
 
 ---
 
@@ -53,8 +53,8 @@ CFD simulations performed in **ANSYS Fluent**. Work includes 2D airfoil pressure
 | Title | Details | Status |
 |-------|---------|--------|
 | FALCON: Framework for Airfoil CFD and anaLysis OptimizatioN | ICAS 2026, Sydney, Sep 2026 | Accepted — Oral Presentation |
-| Advances in Flow–Structure Interaction and Multiphysics Applications: An Immersed Boundary Perspective | *Fluids* (Q2), 2025 | Published |
-| Recent Developments in the Immersed Boundary Method for Complex Fluid–Structure Interactions: A Review | *Fluids* (Q2), 2025 | Published |
+| Advances in Flow–Structure Interaction and Multiphysics Applications: An Immersed Boundary Perspective | *Fluids* (Q2), 2025 — [DOI](https://doi.org/10.3390/fluids10080217) | Published |
+| Recent Developments in the Immersed Boundary Method for Complex Fluid–Structure Interactions: A Review | *Fluids* (Q2), 2025 — [DOI](https://doi.org/10.3390/fluids10050134) | Published |
 
 FALCON source code: [github.com/Prisha22/FALCON](https://github.com/Prisha22/FALCON) *(co-developed)*  
 Registered Software: SW-47114/2025-CO
