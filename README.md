@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository showcases selected CAD, FEA, and CFD work from my projects at AeroMIT (SAE Collegiate Design Team) and independent research at Manipal Institute of Technology. All structural and aerodynamic simulations were carried out in ANSYS Mechanical and ANSYS Fluent; all CAD models were developed in SolidWorks and/or CATIA. 
+This repository showcases selected CAD, FEA, and CFD work from my projects at AeroMIT (SAE Collegiate Design Team) and independent research at Manipal Institute of Technology. All structural and aerodynamic simulations were carried out in ANSYS Mechanical and ANSYS Fluent; all CAD models were developed in SolidWorks.
 
 > **Note:** Full CAD and simulation files are not hosted here due to competition confidentiality and ongoing publication restrictions. Screenshots of key results are provided for each project.
 
@@ -25,22 +25,22 @@ All models designed in **SolidWorks**.
 
 ### Previews
 
-<img src="CAD/images/sae_aero_design_full_structure.png" width="700"/>
+<img src="CAD/sae_aero_design_full_structure.png" width="700"/>
 <p><em>SAE Aero Design East 2026 aircraft — full internal structure (SolidWorks)</em></p>
 
-<img src="CAD/images/rc_aircraft_v1.png" width="700"/>
+<img src="CAD/rc_aircraft_v1.png" width="700"/>
 <p><em>AeroMIT RC aircraft — early configuration</em></p>
 
-<img src="CAD/images/rc_aircraft_v2.png" width="700"/>
+<img src="CAD/rc_aircraft_v2.png" width="700"/>
 <p><em>AeroMIT RC aircraft — refined configuration with propeller</em></p>
 
-<img src="CAD/images/flying_wing.png" width="700"/>
+<img src="CAD/flying_wing.png" width="700"/>
 <p><em>Flying wing / blended wing body concept</em></p>
 
-<img src="CAD/images/fuselage_internal_v1.png" width="700"/>
+<img src="CAD/fuselage_internal_v1.png" width="700"/>
 <p><em>Aircraft fuselage internal structure — frame and longeron layout</em></p>
 
-<img src="CAD/images/fuselage_internal_v2.png" width="700"/>
+<img src="CAD/fuselage_internal_v2.png" width="700"/>
 <p><em>Aircraft fuselage internal structure — alternate view</em></p>
 
 ---
@@ -59,19 +59,19 @@ All analyses performed in **ANSYS Mechanical 2024 R2** (Static Structural, Modal
 
 ### Previews
 
-<img src="FEA/images/wing_rib_von_mises.png" width="700"/>
+<img src="FEA/wing_rib_von_mises.png" width="700"/>
 <p><em>Wing rib — equivalent (von Mises) stress, static structural. Max: 53.2 MPa</em></p>
 
-<img src="FEA/images/nose_gear_deformation.png" width="700"/>
+<img src="FEA/nose_gear_deformation.png" width="700"/>
 <p><em>Nose landing gear — total deformation under impact load. Max: 14.1 mm</em></p>
 
-<img src="FEA/images/full_aircraft_deformation.png" width="700"/>
+<img src="FEA/full_aircraft_deformation.png" width="700"/>
 <p><em>Full aircraft airframe — total deformation, static structural. Max: 25.8 mm</em></p>
 
-<img src="FEA/images/fuselage_tail_deformation.png" width="700"/>
+<img src="FEA/fuselage_tail_deformation.png" width="700"/>
 <p><em>RC aircraft fuselage and tail — total deformation. Max: 16.9 mm</em></p>
 
-<img src="FEA/images/quadcopter_landing_deformation.png" width="700"/>
+<img src="FEA/quadcopter_landing_deformation.png" width="700"/>
 <p><em>Quadcopter frame — total deformation, landing impact. Max: 0.04 mm</em></p>
 
 ---
@@ -86,7 +86,7 @@ All simulations performed in **ANSYS Fluent**.
 
 ### Previews
 
-<img src="CFD/images/aircraft_velocity_pathlines.png" width="700"/>
+<img src="CFD/aircraft_velocity_pathlines.png" width="700"/>
 <p><em>Full aircraft CFD — velocity magnitude pathlines (ANSYS Fluent). Freestream: 25 m/s</em></p>
 
 ---
