@@ -8,7 +8,7 @@
 
 This repository showcases selected CAD, FEA, and CFD work from my projects at AeroMIT (SAE Collegiate Design Team, MIT Manipal) and personal design work. It is intended to supplement my resume by providing visual evidence of my engineering analysis and modelling capabilities.
 
-My primary CAD tool is **SolidWorks**. I also have hands-on experience with **CATIA** (coursework and lab, MIT Manipal) and **AutoCAD** — models from university computers are not included here as I do not have local copies of those files.
+My primary CAD tool is **SolidWorks**. I also have hands-on experience with **CATIA** (coursework and lab, MIT Manipal) and **AutoCAD** — the models from university computers are not included here as I do not have local copies of those files.
 
 > Full simulation files are not hosted due to ongoing publication restrictions and competition confidentiality.
 
